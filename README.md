@@ -201,3 +201,25 @@ Random Forest GridSearchCV
         |
         ↓
 Deployment-ready Pipeline Model
+```
+
+---
+
+## FastAPI Deployment
+
+The trained machine learning model is deployed using a **FastAPI** application for real-time inference.
+
+### Deployment Architecture
+
+```text
+Client
+  |
+  ↓
+FastAPI API
+  |
+  ↓
+MLflow Registered Model
+  |
+  ↓
+Prediction
+```
