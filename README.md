@@ -223,3 +223,21 @@ MLflow Registered Model
   ↓
 Prediction
 ```
+
+### API Endpoint
+
+```http
+POST /predict
+```
+#### Input
+
+The API accepts the 16 selected model features required for generating predictions.
+
+#### Output
+
+Example response:
+```
+{
+    "prediction": "Employed"
+}
+```
