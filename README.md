@@ -316,3 +316,58 @@ uvicorn app.main:app --reload
 ```
 http://127.0.0.1:8000/docs
 ```
+
+---
+
+# Technologies Used
+
+## Programming Language
+
+- Python
+
+## Machine Learning
+
+- Scikit-learn
+- Random Forest
+- GridSearchCV
+
+## Data Processing
+
+- Pandas
+- NumPy
+
+## Experiment Tracking and MLOps
+
+- MLflow
+- MLflow Model Registry
+
+## API Deployment
+
+- FastAPI
+- Uvicorn
+
+## Development Tools
+
+- Git
+- GitHub
+- Jupyter Notebook
+
+---
+
+# Future Improvements
+
+Possible future extensions:
+
+- Docker containerization
+- Cloud deployment
+- Model monitoring
+- Automated retraining pipeline
+- CI/CD integration
+
+---
+
+# Author
+
+**Syed Afnan Hasan**
+
+MSc Applied Data Science & AI
