@@ -302,3 +302,17 @@ source ml_venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+## Running the API
+
+Start the FastAPI server:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+### Open the following URL in your browser to access the interactive API documentation:
+
+```
+http://127.0.0.1:8000/docs
+```
