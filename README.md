@@ -24,3 +24,50 @@ The project implements an end-to-end machine learning workflow including:
 - MLflow Model Registry for model versioning
 - Champion/Challenger model workflow
 - Model deployment using FastAPI
+
+---
+
+## Problem Statement
+
+Artificial Intelligence adoption is transforming industries and changing workforce requirements.
+
+This project aims to predict an employee's potential employment outcome after AI adoption using machine learning techniques.
+
+The model predicts one of the following employment outcomes:
+
+- Employed
+- Reskilled
+- Career Change
+- Unemployed
+
+The predictions can help organizations:
+
+- Understand potential workforce risks
+- Identify employees who may require additional training
+- Support workforce planning and reskilling strategies
+
+---
+
+## Dataset
+
+The project uses a **synthetic cross-sectional labor-market dataset** that simulates the impact of AI adoption on global employment trends.
+
+The dataset contains information related to:
+
+- Employee demographics
+- Education and professional experience
+- Industry and job role
+- AI adoption level
+- Digital and AI literacy scores
+- Productivity metrics
+- Training and reskilling activities
+- Job satisfaction
+- Automation and layoff probabilities
+- Employment outcomes after AI adoption
+
+### Target Variable
+
+The target variable for prediction is:
+
+```text
+employment_status_after_ai
