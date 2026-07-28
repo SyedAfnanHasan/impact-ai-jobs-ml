@@ -218,4 +218,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-notebooks/
+# Ignore MLflow artifacts
+notebooks/mlruns/
+
+.DS_Store
