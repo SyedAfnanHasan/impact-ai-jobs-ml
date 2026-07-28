@@ -85,9 +85,6 @@ Data Collection
 Data Cleaning
         |
         ↓
-Exploratory Data Analysis (EDA)
-        |
-        ↓
 Feature Selection
         |
         ↓
