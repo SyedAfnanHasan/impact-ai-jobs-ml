@@ -71,7 +71,7 @@ The target variable for prediction is:
 
 ```text
 employment_status_after_ai
-
+```
 ---
 
 ## Machine Learning Workflow
