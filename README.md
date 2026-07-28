@@ -71,3 +71,36 @@ The target variable for prediction is:
 
 ```text
 employment_status_after_ai
+
+---
+
+## Machine Learning Workflow
+
+The project follows a complete end-to-end machine learning lifecycle:
+
+```text
+Data Collection
+        |
+        ↓
+Data Cleaning
+        |
+        ↓
+Exploratory Data Analysis (EDA)
+        |
+        ↓
+Feature Selection
+        |
+        ↓
+Model Training
+        |
+        ↓
+Model Evaluation
+        |
+        ↓
+MLflow Experiment Tracking
+        |
+        ↓
+MLflow Model Registry
+        |
+        ↓
+FastAPI Deployment
