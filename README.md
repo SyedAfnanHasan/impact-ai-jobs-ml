@@ -262,3 +262,43 @@ impact-ai-jobs-ml/
 │
 └── .gitignore
 ```
+
+---
+
+## Installation and Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/SyedAfnanHasan/impact-ai-jobs-ml.git
+```
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/SyedAfnanHasan/impact-ai-jobs-ml.git
+```
+
+### Navigate into the Project Directory
+
+```
+cd impact-ai-jobs-ml
+```
+
+### Create a Virtual Environment
+
+```bash
+python -m venv ml_venv
+```
+
+### Activate the Virtual Environment
+
+```bash
+source ml_venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
