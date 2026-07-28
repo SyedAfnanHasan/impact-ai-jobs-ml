@@ -241,3 +241,24 @@ Example response:
     "prediction": "Employed"
 }
 ```
+
+# Project Structure
+
+```text
+impact-ai-jobs-ml/
+│
+├── app/
+│   └── main.py
+│
+├── data/
+│
+├── notebooks/
+│   ├── exploration.ipynb
+│   └── mlflow.db
+│
+├── requirements.txt
+│
+├── README.md
+│
+└── .gitignore
+```
