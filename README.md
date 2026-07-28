@@ -104,3 +104,100 @@ MLflow Model Registry
         |
         ↓
 FastAPI Deployment
+```
+
+---
+
+## Feature Selection
+
+Feature importance analysis was performed using the **Random Forest** algorithm to identify the most influential predictors.
+
+The final model was trained using the following **top 16 selected features**:
+
+- `layoff_probability`
+- `automation_probability`
+- `mental_stress_score`
+- `job_satisfaction`
+- `training_hours`
+- `ai_literacy_score`
+- `innovation_score`
+- `digital_skill_score`
+- `productivity_score`
+- `salary_usd`
+- `promotion_probability`
+- `annual_performance_rating`
+- `hours_worked_per_week`
+- `ai_adoption_level`
+- `age`
+- `years_experience`
+
+---
+
+## Models Developed
+
+The following machine learning models were developed and evaluated:
+
+### 1. Random Forest
+
+A baseline Random Forest model was trained using class balancing techniques to handle the imbalanced target classes.
+
+### 2. Random Forest with GridSearchCV
+
+Hyperparameter optimization was performed using **GridSearchCV** to improve model performance.
+
+The following parameters were optimized:
+
+| Parameter | Values Tested |
+|---|---|
+| `n_estimators` | `[200, 500]` |
+| `max_depth` | `[10, 20, None]` |
+| `min_samples_leaf` | `[1, 2]` |
+
+---
+
+## Model Evaluation
+
+Since the dataset contains class imbalance, **accuracy alone was not considered sufficient** for evaluating model performance.
+
+The primary evaluation metric used was:
+
+- **Macro F1 Score**
+
+Additional evaluation metrics included:
+
+- Accuracy
+- Precision
+- Recall
+- Classification Report
+
+The final model selection was based on:
+
+- Performance across minority classes
+- Balanced prediction capability
+- Overall model performance
+
+---
+
+## MLflow Implementation
+
+MLflow was used for experiment tracking, model management, and version control throughout the machine learning lifecycle.
+
+### Implemented MLflow Features
+
+- Experiment tracking
+- Parameter logging
+- Metric logging
+- Model artifact logging
+- Model registration
+- Model versioning
+
+### MLflow Model Registry Workflow
+
+```text
+Random Forest Balanced
+        |
+        ↓
+Random Forest GridSearchCV
+        |
+        ↓
+Deployment-ready Pipeline Model
